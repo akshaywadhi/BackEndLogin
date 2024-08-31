@@ -1,0 +1,75 @@
+
+.navbar{
+  background: rgb(104, 73, 106);
+  padding: 20px;
+  text-align: center;
+  color:white;
+  margin:20px;
+display:flex;
+align-items: center;
+justify-content: space-around;
+border-radius: 20px;
+}
+
+.navbar h3, h1{
+  background : transparent;
+}
+
+.navbar button{
+  background: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+
+.navbar .link{
+  background: transparent;
+}
+
+.navbar .username{
+  font-size: 1.5rem;
+  background : transparent;
+  color: rgb(61, 152, 209);
+}
+
+.signup-link{
+  background: transparent;
+}
+
+.here{
+  margin-left: 5px;
+  color: rgb(80, 210, 225);
+  text-decoration: none;
+
+}
+
+.logout{
+  background: transparent;
+  color: red;
+  font-size: 1.1rem;
+  cursor : pointer
+}
+
+.userPro{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.userProDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.userProDiv div{
+  background-color: transparent;
+}
+
+.userProDiv p{
+  background-color: transparent;
+  font-weight: 600;
+}

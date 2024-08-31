@@ -1,0 +1,98 @@
+.login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap : 2rem;
+
+}
+
+.login-form input{
+  font-size: 1.5rem;
+  width: 60%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid rgb(179, 178, 178);
+  outline: none;
+  transition: all 0.3s ease;
+  padding: 0px 5px;
+  color: white;
+}
+
+.login-form input:hover{
+padding: 0px 10px;
+  border-color: #115287;
+  box-shadow: 0 0 5px rgba(74, 107, 134, 0.5);
+}
+
+.login-form button{
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background: rgb(11, 87, 88);
+  border:none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.login-form button:hover{
+transform: scale(1.1);
+border: 1px solid rgb(14, 98, 100);
+box-shadow: 1px 1px 5px rgb(8, 82, 57)
+}
+
+.login-content{
+  width: 60%;
+}
+.login-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.login-content h1,h3{
+color: rgb(171, 171, 171);
+
+line-height: 1.2;
+
+}
+
+.password-container{
+  position: relative;
+  width: 60%;
+}
+.password-container input{
+width: 100%;
+}
+.password-content{
+  position: absolute;
+  right: 30px;
+  top: 17px;
+}
+.password-content i{
+  color: white;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.text{
+margin-top: 20px;
+text-align: center;
+}
+
+
+@media (max-width: 500px){
+  .login-form input{
+    width: 100%;
+  }
+
+  .password-container{
+    width: 100%;
+  }
+
+  .text{
+    margin-top: 50px;
+    font-size: 0.8rem;
+  }
+}
